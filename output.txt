@@ -1,0 +1,87 @@
+[10-19-2019 21:21:16] --------------------------------------------------
+[10-19-2019 21:21:16] Node [node 4, row: 0, col: 3], adjacents [3, 5, 9]
+[10-19-2019 21:21:16] --------------------------------------------------
+[10-19-2019 21:21:16] [SEND] [Node 4] Signal to adjacent node 3
+[10-19-2019 21:21:16] [SEND] [Node 4] Signal to adjacent node 5
+[10-19-2019 21:21:16] [SEND] [Node 4] Signal to adjacent node 9
+[10-19-2019 21:21:16] [RECV] [Adjacent 9] Received signal from node 4
+[10-19-2019 21:21:16] [SEND] [Adjacent 9] Sending data 8224 back to node 4
+
+[10-19-2019 21:21:16] [RECV] [Node 4] Received data 8224 from adjacent node 9
+[10-19-2019 21:21:16] [RECV] [Adjacent 3] Received signal from node 4
+[10-19-2019 21:21:16] [SEND] [Adjacent 3] Sending data 8224 back to node 4
+
+[10-19-2019 21:21:16] [RECV] [Node 4] Received data 8224 from adjacent node 3
+[10-19-2019 21:21:16] [RECV] [Adjacent 5] Received signal from node 4
+[10-19-2019 21:21:16] [SEND] [Adjacent 5] Sending data 8224 back to node 4
+
+[10-19-2019 21:21:16] [RECV] [Node 4] Received data 8224 from adjacent node 5
+[10-19-2019 21:21:16] [SEND] [Encrypt] The time taken to Encrypt message for data 8224: 0.014118
+[10-19-2019 21:21:16] [SEND] [Node 4] Sending data 8224 of adjacents [9, 3, 5] to Base-Station
+
+[10-19-2019 21:21:16] [RECV] [Decrypt] The time taken to Decrypt message after receiving: 0.014261
+[10-19-2019 21:21:16] [RECV] [Base-Station] Node 4 received data 8224 from adjacents [9, 3, 5]
+
+[10-19-2019 21:21:16] **************************************************
+[10-19-2019 21:21:16] [Iteration 1] Number of messages passed throughout the network: 7
+[10-19-2019 21:21:16] [Iteration 1] Number of events occurred throughout the network: 3
+[10-19-2019 21:21:16] **************************************************
+
+[10-19-2019 21:21:18] --------------------------------------------------
+[10-19-2019 21:21:18] Node [node 6, row: 1, col: 0], adjacents [1, 7, 11]
+[10-19-2019 21:21:18] --------------------------------------------------
+[10-19-2019 21:21:18] [SEND] [Node 6] Signal to adjacent node 1
+[10-19-2019 21:21:18] [SEND] [Node 6] Signal to adjacent node 7
+[10-19-2019 21:21:18] [SEND] [Node 6] Signal to adjacent node 11
+[10-19-2019 21:21:18] [RECV] [Adjacent 1] Received signal from node 6
+[10-19-2019 21:21:18] [SEND] [Adjacent 1] Sending data 5526 back to node 6
+
+[10-19-2019 21:21:18] [RECV] [Node 6] Received data 5526 from adjacent node 1
+[10-19-2019 21:21:18] [RECV] [Adjacent 11] Received signal from node 6
+[10-19-2019 21:21:18] [SEND] [Adjacent 11] Sending data 5526 back to node 6
+
+[10-19-2019 21:21:18] [RECV] [Node 6] Received data 5526 from adjacent node 11
+[10-19-2019 21:21:18] [RECV] [Adjacent 7] Received signal from node 6
+[10-19-2019 21:21:18] [SEND] [Adjacent 7] Sending data 5526 back to node 6
+
+[10-19-2019 21:21:18] [RECV] [Node 6] Received data 5526 from adjacent node 7
+[10-19-2019 21:21:18] [SEND] [Encrypt] The time taken to Encrypt message for data 5526: 0.014257
+[10-19-2019 21:21:18] [SEND] [Node 6] Sending data 5526 of adjacents [1, 11, 7] to Base-Station
+
+[10-19-2019 21:21:18] [RECV] [Decrypt] The time taken to Decrypt message after receiving: 0.000017
+[10-19-2019 21:21:18] [RECV] [Base-Station] Node 6 received data 5526 from adjacents [1, 11, 7]
+
+[10-19-2019 21:21:18] **************************************************
+[10-19-2019 21:21:18] [Iteration 2] Number of messages passed throughout the network: 7
+[10-19-2019 21:21:18] [Iteration 2] Number of events occurred throughout the network: 3
+[10-19-2019 21:21:18] **************************************************
+
+[10-19-2019 21:21:19] --------------------------------------------------
+[10-19-2019 21:21:19] Node [node 11, row: 2, col: 0], adjacents [6, 12, 16]
+[10-19-2019 21:21:19] --------------------------------------------------
+[10-19-2019 21:21:19] [SEND] [Node 11] Signal to adjacent node 6
+[10-19-2019 21:21:19] [SEND] [Node 11] Signal to adjacent node 12
+[10-19-2019 21:21:19] [SEND] [Node 11] Signal to adjacent node 16
+[10-19-2019 21:21:19] [RECV] [Adjacent 16] Received signal from node 11
+[10-19-2019 21:21:19] [SEND] [Adjacent 16] Sending data 2771 back to node 11
+
+[10-19-2019 21:21:19] [RECV] [Adjacent 12] Received signal from node 11
+[10-19-2019 21:21:19] [SEND] [Adjacent 12] Sending data 2771 back to node 11
+
+[10-19-2019 21:21:19] [RECV] [Node 11] Received data 2771 from adjacent node 16
+[10-19-2019 21:21:19] [RECV] [Node 11] Received data 2771 from adjacent node 12
+[10-19-2019 21:21:19] [RECV] [Adjacent 6] Received signal from node 11
+[10-19-2019 21:21:19] [SEND] [Adjacent 6] Sending data 2771 back to node 11
+
+[10-19-2019 21:21:19] [RECV] [Node 11] Received data 2771 from adjacent node 6
+[10-19-2019 21:21:19] [SEND] [Encrypt] The time taken to Encrypt message for data 2771: 0.011321
+[10-19-2019 21:21:19] [SEND] [Node 11] Sending data 2771 of adjacents [16, 12, 6] to Base-Station
+
+[10-19-2019 21:21:19] [RECV] [Decrypt] The time taken to Decrypt message after receiving: 0.000014
+[10-19-2019 21:21:19] [RECV] [Base-Station] Node 11 received data 2771 from adjacents [16, 12, 6]
+
+[10-19-2019 21:21:19] **************************************************
+[10-19-2019 21:21:19] [Iteration 3] Number of messages passed throughout the network: 7
+[10-19-2019 21:21:19] [Iteration 3] Number of events occurred throughout the network: 3
+[10-19-2019 21:21:19] **************************************************
+
